@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Playground</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>CSS Playground</h1>
+
+<div class="container">
+  <div class="menu">
+    <button onclick="showPadding()">Padding</button>
+    <button onclick="showMargin()">Margin</button>
+    <button onclick="showHover()">Hover</button>
+    <button onclick="showAnimation()">Animation</button>
+
+<button onclick="toggleDisplay()">Display none</button>
+<button onclick="toggleVisibility()">Visibility hidden</button>
+<button onclick="rotateBox()">Rotate</button>
+<button onclick="scaleBox()">Scale</button>
+<button onclick="skewBox()">Skew</button>
+<pre id="cssCode"></pre>
+
+  </div>
+
+  <div class="demo-area">
+    <div id="box">BOX</div>
+    <pre id="code"></pre>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
